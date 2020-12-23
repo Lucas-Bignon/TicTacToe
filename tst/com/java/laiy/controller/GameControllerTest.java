@@ -1,13 +1,14 @@
 package com.java.laiy.controller;
 
-import com.java.laiy.model.Board;
-import com.java.laiy.model.Figure;
-import com.java.laiy.model.Player;
-import com.java.laiy.model.exceptions.PointOccupiedException;
-import org.ietf.jgss.GSSManager;
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import controller.GameController;
+import model.Board;
+import model.Figure;
+import model.Player;
+import model.exceptions.PointOccupiedException;
 
 public class GameControllerTest {
 

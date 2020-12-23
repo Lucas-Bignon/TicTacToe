@@ -1,11 +1,13 @@
-package com.java.laiy;
+package laily;
 
-import com.java.laiy.view.*;
+import laily.view.ConsoleMenuView;
+
 
 public class Main {
 
     public static void main(final String[] args) {
         ConsoleMenuView.showMenuWithResult();
+
     }
 
 }
